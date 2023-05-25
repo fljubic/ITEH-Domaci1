@@ -146,7 +146,7 @@ if (isset($_POST['submit'])) {
 
 <body>
   <div class="login-container">
-    <img src="oxford.jpg" alt="logo">
+    <img src="img/oxford.jpg" alt="logo">
     <form method="POST">
       <h1>Пријавите се овде</h1>
       <div class="form-container">
