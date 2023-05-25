@@ -1,0 +1,98 @@
+body {
+  background-color: chocolate;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  top: 20%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 72px;
+  margin-right: 20px;
+  animation: blink-grow 2.4s infinite;
+  color: white;
+  text-align: center;
+}
+
+h1 .arrow {
+  font-size: 72px;
+  margin-left: 5px;
+  animation: blink-grow 2.4s infinite;
+  color: white;
+}
+
+table {
+  margin: 20px;
+  width: 60%;
+  border-collapse: collapse;
+  background-color: #343541;
+  color: white;
+}
+
+th {
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+td {
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 200px;
+  display: inline-block;
+  border: none; /*remove border*/
+  box-sizing: border-box;
+}
+
+@keyframes blink-grow {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"],
+button {
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 200px;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  background-color: #343541;
+  color: white;
+}
+
+img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  align-self: flex-start;
+}
+
+label {
+  color: white;
+}
