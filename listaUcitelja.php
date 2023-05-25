@@ -13,7 +13,7 @@ $ucitelji = Ucitelj::getAll($conn);
   <title>Листа учитеља</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <style>
-    /* Style the table */
+   
     table {
       margin: 0 auto;
       width: 50%;
@@ -22,7 +22,7 @@ $ucitelji = Ucitelj::getAll($conn);
       color: white;
     }
 
-    /* Style the table headers */
+    
     th {
       border-bottom: 1px solid white;
       padding: 10px;
@@ -30,7 +30,7 @@ $ucitelji = Ucitelj::getAll($conn);
       background-color: saddlebrown;
     }
 
-    /* Style the table cells */
+   
     td {
       border-bottom: 1px solid white;
       padding: 10px;
@@ -42,7 +42,7 @@ $ucitelji = Ucitelj::getAll($conn);
       text-align: center;
     }
 
-    /* Style the buttons */
+    
     .button {
       background-color: #343541;
       color: white;
@@ -51,7 +51,7 @@ $ucitelji = Ucitelj::getAll($conn);
       width: 200px;
       display: inline-block;
       border: none;
-      /*remove border*/
+      
       box-sizing: border-box;
     }
   </style>

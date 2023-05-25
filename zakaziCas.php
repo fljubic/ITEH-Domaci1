@@ -39,7 +39,7 @@ $ucitelji = Ucitelj::getAll($conn);
   <title>Закажи час</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <style>
-    /* Centriranje forme */
+    
     form {
       display: flex;
       flex-direction: column;
@@ -48,7 +48,7 @@ $ucitelji = Ucitelj::getAll($conn);
       height: 100vh;
     }
 
-    /* textfieldovi da budu na istoj osi */
+    
     input[type="text"],
     input[type="date"],
     select {
@@ -62,7 +62,7 @@ $ucitelji = Ucitelj::getAll($conn);
       background-color: white;
     }
 
-    /* Uvecanje fonta */
+    
     label {
       font-size: 1.6em;
       font-weight: bold;
